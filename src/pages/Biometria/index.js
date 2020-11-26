@@ -54,7 +54,7 @@ const Biometria = ( {navigation} ) => {
       <SafeAreaView style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
           {isBiometria ? <Text>Permissão consedida</Text>:
             <>
-              <Text style={{ fontSize: 18, paddingBottom: 20 }} >Aguradando biometria</Text>
+              <Text style={{ fontSize: 18, paddingBottom: 20 }} >Aguardando biometria</Text>
               <ActivityIndicator size={100} color="#0000ff" />
             </>
           }
